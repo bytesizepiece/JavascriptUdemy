@@ -1,3 +1,1 @@
-let name = "robin";
-console.log(name);
-console.log("my name is:" name);
+let random123_$ = 'me'
