@@ -1,11 +1,18 @@
-const firstName = "Robin";
-const lastName = "Shake&Bake";
-let fullName = firstName + " " + lastName
+const number = 4
+const number2 = 2.456
 
-console.log("helo there your full name is: " + firstName +" " + lastName);
+const add = number + number2;
+const sub = number - number2;
+const mult = number * number2;
+const div = number / number2;
 
 
-const website = "google";
-const url = "https//www." + website + ".com"
 
-console.log(url);
+console.log(number);
+console.log(number2);
+console.log(number3);
+
+console.log(add);
+console.log(sub);
+console.log(mult);
+console.log(div);
