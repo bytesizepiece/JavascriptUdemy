@@ -1,18 +1,28 @@
-const number = 4
-const number2 = 2.456
+/*
+7 data types
 
-const add = number + number2;
-const sub = number - number2;
-const mult = number * number2;
-const div = number / number2;
+Primative - string, number, boolean, null, undefined, symbol
+
+Object - array, function, objects
+*/
+
+// String
+const text = "some text";
+
+// Number
+const number = 45;
+
+// Boolean
+const value = true;
+
+// Null
+const result = null
+
+// Undefined
+let name;
 
 
 
-console.log(number);
-console.log(number2);
-console.log(number3);
-
-console.log(add);
-console.log(sub);
-console.log(mult);
-console.log(div);
+console.log(typeof text);
+console.log(typeof number);
+console.log(typeof null);
