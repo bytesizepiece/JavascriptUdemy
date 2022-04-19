@@ -1,28 +1,18 @@
-/*
-7 data types
+// Arrays
 
-Primative - string, number, boolean, null, undefined, symbol
+const friend1 = "Anna"
+const friend2 = "Anna2"
+const friend3 = "Anna3"
 
-Object - array, function, objects
-*/
+const friends = [friend1, friend2, friend3, "john", 10]
 
-// String
-const text = "some text";
+console.log(friends);
+console.log(friends[3]);
 
-// Number
-const number = 45;
+let bestFriend = friends[2]
 
-// Boolean
-const value = true;
+friends[4] = "sausage"
 
-// Null
-const result = null
+console.log(bestFriend)
 
-// Undefined
-let name;
-
-
-
-console.log(typeof text);
-console.log(typeof number);
-console.log(typeof null);
+console.log(friends[4]);
