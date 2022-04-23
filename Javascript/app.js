@@ -1,18 +1,16 @@
-// Arrays
+    
+    const name1 = Math.floor(Math.random()*10 + 1)
 
-const friend1 = "Anna"
-const friend2 = "Anna2"
-const friend3 = "Anna3"
+function hello() {
+    //function logic
+    const name1 = Math.floor(Math.random()*10 + 1)
 
-const friends = [friend1, friend2, friend3, "john", 10]
+    console.log("hello there Bob");
+    console.log("hello there John");
+    console.log("hello there Susy");
 
-console.log(friends);
-console.log(friends[3]);
+}
 
-let bestFriend = friends[2]
+hello()
 
-friends[4] = "sausage"
-
-console.log(bestFriend)
-
-console.log(friends[4]);
+console.log(name1)
