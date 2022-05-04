@@ -1,9 +1,22 @@
-const fruits = ["banana", "apple", "orange", Math.floor(Math.random()*10 + 1) ]
+const car = {
+make: "Maserati",
+model: "Granturismo",
+engineSize: 4.7,
+hybrid: false,
+year: 2013,
+colour: ["black", "grey", "chrome",],
+drive: function drive(){
+    console.log("car is moving!");
+},
+stop(){
+    console.log("car is stopping!");
+},
 
-console.log(fruits[3]);
+}
 
-fruits[3] = "kiwi"
 
-console.log(fruits[3])
+console.log(car.make);
 
-console.log(fruits);
+console.log(car.colour[0]);
+car.drive()
+car.stop()

@@ -1,16 +1,16 @@
-    
-    const name1 = Math.floor(Math.random()*10 + 1)
+// Conditional statements
 
-function hello() {
-    //function logic
-    const name1 = Math.floor(Math.random()*10 + 1)
 
-    console.log("hello there Bob");
-    console.log("hello there John");
-    console.log("hello there Susy");
 
+const num1 = 6;
+const num2 = 7;
+const result = num1 >= num2;
+
+if (num1 > num2) {
+    console.log("first is bigger");
+}   else if (result){
+    console.log("first number equal to second");
+}   else {
+    console.log("second is bigger");
 }
 
-hello()
-
-console.log(name1)
