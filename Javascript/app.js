@@ -2,15 +2,10 @@
 
 
 
-const num1 = 6;
-const num2 = 7;
-const result = num1 >= num2;
+let money = 0
 
-if (num1 > num2) {
-    console.log("first is bigger");
-}   else if (result){
-    console.log("first number equal to second");
-}   else {
-    console.log("second is bigger");
+do {
+    console.log("you have " + money + " dollars");
+    money++
 }
-
+while (money < 10)
