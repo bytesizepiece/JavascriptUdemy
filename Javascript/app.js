@@ -1,16 +1,16 @@
-// Conditional statements
+/*
+Object of 4x people with
+- name, age, gender, region
+
+function to apply to vote
+- check if possible
 
 
+*/
 
-const num1 = 6;
-const num2 = 7;
-const result = num1 >= num2;
-
-if (num1 > num2) {
-    console.log("first is bigger");
-}   else if (result){
-    console.log("first number equal to second");
-}   else {
-    console.log("second is bigger");
+let person1 = {
+    name: "John",
+    age: 41,
+    gender: "male",
+    region: "local" 
 }
-
