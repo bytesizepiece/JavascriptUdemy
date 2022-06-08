@@ -1,0 +1,49 @@
+
+*{
+margin: 0%;
+padding:0%;
+box-sizing: border-box;
+background-color: black;
+color: azure;
+font-family: "Roboto";
+}
+
+body{
+    padding:30px 0px 30px 0px
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.pagelinks{
+text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+
+label{
+clear: right;
+
+}
+
+input{
+text-align: center;
+}
+
+.redbox{
+    background-color: blue;
+    height: 20px;
+    width: 100%;
+}
+
+.centerline{
+    background-color: red;
+    height: 50px;
+    width: 1px;
+
+}
