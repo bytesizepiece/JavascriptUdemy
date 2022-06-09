@@ -1,9 +1,9 @@
 
-*{
+html, body{
 margin: 0%;
 padding:0%;
 box-sizing: border-box;
-background-color: black;
+background-color: grey;
 color: azure;
 font-family: "Roboto";
 }
@@ -22,28 +22,40 @@ text-align: center;
 }
 
 form{
-    text-align: center;
+    width: 80vw;
+    margin: auto;
 }
 
 
 label{
-clear: right;
-
+    display: inline-block;
+    width: 30vw;
+    text-align: right;
+    margin: auto;
 }
 
 input{
-text-align: center;
+    text-align: center;
+    
 }
 
-.redbox{
+button{
+    height: 30px;
+    width: 30vw;
+    display: block;
+    margin: auto;
+}
+
+
+/* .redbox{
     background-color: blue;
     height: 20px;
-    width: 100%;
+    width: 50vw;
+    ;
 }
 
 .centerline{
-    background-color: red;
+    background-color: green;
     height: 50px;
     width: 1px;
-
-}
+} */
