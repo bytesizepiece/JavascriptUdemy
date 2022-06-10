@@ -1,0 +1,49 @@
+
+    h1{
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    .pagelinks{
+    text-align: center;
+    }
+    
+    form{
+        width: 80vw;
+        margin: auto;
+    }
+    
+    
+    label{
+        display: inline-block;
+        width: 30vw;
+        text-align: right;
+        margin: auto;
+    }
+    
+    input{
+        text-align: center;
+        
+    }
+    
+    button{
+        height: 30px;
+        width: 30vw;
+        display: block;
+        margin: auto;
+    }
+    
+    
+    /* .redbox{
+        background-color: blue;
+        height: 20px;
+        width: 50vw;
+        ;
+    }
+    
+    .centerline{
+        background-color: green;
+        height: 50px;
+        width: 1px;
+    } */
+    
