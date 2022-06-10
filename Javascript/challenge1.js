@@ -16,10 +16,10 @@ function to apply to vote
 
 */
 function vote(age, region){
-    if (age < 18 || region === "local"){
-    console.log("Too young to vote!");
+    if (age < 18){
+    ("Too young to vote!");
     }
-    else if (region !== "local"){
+    else if (region != "local"){
       console.log("You are not resident!");
     }
 else{
@@ -33,8 +33,9 @@ let person1 = {
     age: 41,
     gender: "male",
     region: "local",
-    vote: function vote(age, region){       
-    }
+    vote(age,region){
+      vote(age,region)      
+  } 
 }
 
 let person2 = {
@@ -42,7 +43,8 @@ let person2 = {
     age: 16,
     gender: "male",
     region: "local",
-    vote: function vote(age, region){       
+      vote(age, region){
+        vote(age,region)      
     } 
 }
 
@@ -51,11 +53,15 @@ let person3 = {
     age: 30,
     gender: "male",
     region: "foreign",
-    vote: function vote(age, region){       
-    } 
+    vote(age, region){
+      vote(age,region)      
+  } 
 }
 
 
-person1.vote()
+
+person1.vote(age,region)
 person2.vote()
 person3.vote()
+
+person1.vote(age,region)
