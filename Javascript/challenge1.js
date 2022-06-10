@@ -19,49 +19,47 @@ function vote(age, region){
     if (age < 18){
     ("Too young to vote!");
     }
-    else if (region != "local"){
-      console.log("You are not resident!");
+    else if (region === "local"){
+      console.log("You can vote!");
     }
 else{
-  console.log("You can vote!");
+  console.log("You cannot vote!");
 }
 }
 
 
-let person1 = {
+const person1 = {
     name: "John",
     age: 41,
     gender: "male",
     region: "local",
-    vote(age,region){
-      vote(age,region)      
+    vote(){
+      vote(person1.age, person1.region)      
   } 
 }
 
-let person2 = {
+const person2 = {
     name: "Paul",
     age: 16,
     gender: "male",
     region: "local",
-      vote(age, region){
-        vote(age,region)      
+      vote(){
+        vote(person2.age, person2.region)       
     } 
 }
 
-let person3 = {
+const person3 = {
     name: "Peter",
     age: 30,
     gender: "male",
     region: "foreign",
-    vote(age, region){
-      vote(age,region)      
+    vote(){
+      vote(person3.age, person3.region)       
   } 
 }
 
 
 
-person1.vote(age,region)
-person2.vote()
-person3.vote()
-
-person1.vote(age,region)
+person1.vote();
+person2.vote();
+person3.vote();
