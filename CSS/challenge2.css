@@ -1,3 +1,16 @@
 html,body{
     background-color: black;
 }
+
+h1{
+    text-align: center;
+}
+
+.pagelinks{
+    display: inline-block;
+    width: 70vw;
+    height: 20px;
+    margin: 0vw, 15vw, 15vw, 15vw;
+    text-align:center;
+
+}
