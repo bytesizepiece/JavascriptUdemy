@@ -11,6 +11,8 @@ drop down menu for number choice + submit
 - update "accoutn balance" + numRolls
 */
 
-
-let numRolls = 0
+let numRolls = 0;
 document.getElementById("numRolls").innerHTML = numRolls;
+
+let accountBalance = 100;
+document.getElementById("accountBalance").innerHTML = accountBalance;
