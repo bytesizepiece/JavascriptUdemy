@@ -1,16 +1,45 @@
-html,body{
-    background-color: black;
+html,
+body {
+  background-color: black;
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
+  color: aliceblue;
 }
 
-.pagelinks{
-    display: inline-block;
-    width: 70vw;
-    height: 20px;
-    margin: 0vw, 15vw, 15vw, 15vw;
-    text-align:center;
+h5 {
+  display: block;
+  height: 20px;
+  text-align: center;
+  color: aliceblue;
+}
 
+.pagelinks {
+  display: inline-block;
+  width: 70vw;
+  height: 20px;
+  margin: 0vw, 15vw, 15vw, 15vw;
+  text-align: center;
+}
+
+#diceLogo {
+  display: block;
+  height: 200px;
+  width: 35vw;
+  margin: auto;
+}
+
+.pagelinks {
+  height: 20px;
+  width: 100vw;
+}
+
+a {
+  color: aliceblue;
+}
+
+#numRolls,
+#accountBalance {
+  display: inherit;
 }
