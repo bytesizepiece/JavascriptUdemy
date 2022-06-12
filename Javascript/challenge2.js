@@ -16,3 +16,33 @@ document.getElementById("numRolls").innerHTML = numRolls;
 
 let accountBalance = 100;
 document.getElementById("accountBalance").innerHTML = accountBalance;
+
+
+var guess = window.prompt("Enter your guess: ");
+
+
+const diceRollResult = getRandomInt(1,6)
+
+function getRandomInt(min, max){
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max-min)
++min)
+}
+
+console.log(diceRollResult);
+
+//convert guess to number
+
+if (guess = diceRollResult){
+    alert("you win!");
+} else if (guess != diceRollResult){
+    alert("you lose!");
+} else {
+    alert("error - try again!");
+}
+numRolls++
+
+
+
+
