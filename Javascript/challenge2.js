@@ -17,32 +17,29 @@ document.getElementById("numRolls").innerHTML = numRolls;
 let accountBalance = 100;
 document.getElementById("accountBalance").innerHTML = accountBalance;
 
-
 var guess = window.prompt("Enter your guess: ");
 
+const guessNumber = Number(guess);
 
-const diceRollResult = getRandomInt(1,6)
+const diceRollResult = getRandomInt(1, 6);
 
-function getRandomInt(min, max){
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max-min)
-+min)
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min) + min);
 }
 
-console.log(diceRollResult);
+console.log("Dice rolled: " + diceRollResult);
+console.log("You guessed: " + guessNumber);
 
 //convert guess to number
 
-if (guess = diceRollResult){
-    alert("you win!");
-} else if (guess != diceRollResult){
-    alert("you lose!");
+if (guessNumber === diceRollResult) {
+  console.log("you win!");
+  numRolls = numRolls + 1;
+} else if (guessNumber != diceRollResult) {
+  console.log("you lose!");
+  numRolls = numRolls + 1;
 } else {
-    alert("error - try again!");
+  console.log("error - try again!");
 }
-numRolls++
-
-
-
-

@@ -1,13 +1,35 @@
-
-html, body{
-margin: 0%;
-padding:0%;
-box-sizing: border-box;
-background-color: grey;
-color: azure;
-font-family: "Roboto";
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background-color: grey;
+  color: azure;
+  font-family: "Roboto";
 }
 
-body{
-    padding:30px 0px 30px 0px
+body {
+  padding: 30px 0px 30px 0px;
+}
+
+.redBox {
+  width: 100vw;
+  height: 300px;
+  background-color: red;
+  text-align: center;
+}
+
+#redSpan {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.blueBox {
+  display: inline-block;
+  width: 80vw;
+  height: 50px;
+}
+
+.textBox {
 }
