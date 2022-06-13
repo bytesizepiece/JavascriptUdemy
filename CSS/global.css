@@ -13,22 +13,34 @@ body {
 }
 
 .redBox {
+  display: flex;
   width: 100vw;
   height: 300px;
   background-color: red;
-  text-align: center;
 }
 
 #redSpan {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
+  position: static;
+  border-style: dashed;
+  border-color: blue;
+  border-width: 3px;
+  width: fit-content;
+  height: fit-content;
+  height: 50px;
+  width: 100px;
+  margin-left: auto;
+  margin-top: auto;
+}
+
+#redText {
+  text-align: right;
+  color: blue;
 }
 
 .blueBox {
   display: inline-block;
-  width: 80vw;
-  height: 50px;
+  width: 100vw;
+  height: 300px;
 }
 
 .textBox {
