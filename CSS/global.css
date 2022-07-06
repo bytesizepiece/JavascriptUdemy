@@ -21,15 +21,15 @@ body {
 
 #redSpan {
   position: static;
-  border-style: dashed;
-  border-color: blue;
-  border-width: 3px;
-  width: fit-content;
-  height: fit-content;
+  box-sizing: border-box;
+  background-color: aliceblue;
+  border: 3px dashed blue;
   height: 50px;
   width: 100px;
   margin-left: auto;
   margin-top: auto;
+  padding-bottom: 0px;
+  padding-top: 0.8em;
 }
 
 #redText {
@@ -43,5 +43,10 @@ body {
   height: 300px;
 }
 
-.textBox {
+.textbox {
+  display: block;
+  background-image: url(/Images/dice2.jpeg);
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
 }
